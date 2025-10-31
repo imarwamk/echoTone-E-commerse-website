@@ -1,0 +1,163 @@
+body {
+  background: linear-gradient(
+    0deg,
+    var(--main-bg1) 0%,
+    var(--main-bg2) 26%,
+    var(--main-bg3) 59%,
+    var(--main-bg4) 74%,
+    var(--main-bg5) 100%
+  );
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.custom-navbar {
+  background-color: var(--offwhite);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 15px;
+  border: 0.5px solid var(--border-light);
+  box-shadow: 0 4px 30px var(--dark-gray);
+  margin: 20px;
+  padding: 10px 25px;
+}
+
+.admin-container {
+  width: 95%;
+  margin: 40px auto;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.admin-header h2 {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.add-btn {
+  background: var(--offwhite);
+  color: var(--white);
+  border: 0.5px solid var(--border-light);
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.add-btn:hover {
+  color: var(--white);
+  background: var(--main-bg1);
+  box-shadow: 0 0 10px var(--hover-accent);
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--offwhite);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 0.5px solid var(--border-light);
+  box-shadow: 0 4px 30px var(--dark-gray);
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+  background: rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+}
+
+tr:hover {
+  background: rgba(2, 230, 255, 0.1);
+}
+
+.product-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.price-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+.btn-edit {
+  background-color: #68d8fb;
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-edit:hover {
+  background-color: var(--hover-accent);
+  color: var(--white);
+}
+
+.btn-delete {
+  background-color: rgba(255, 0, 0, 0.4);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-delete:hover {
+  color: var(--white);
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.fa-user:hover {
+  color: var(--hover-accent);
+  transform: scale(1.05);
+}
+
+.icon-btn {
+  color: var(--white);
+}
+
+.blur-popup {
+  border-radius: 25px !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+  th,
+  td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .product-img {
+    width: 40px;
+    height: 40px;
+  }
+}

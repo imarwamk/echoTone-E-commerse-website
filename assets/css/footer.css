@@ -1,0 +1,41 @@
+.footer {
+  margin-top: 30px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background: rgba(31, 30, 30, 0.3);
+  color: var(--light-gray);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: var(--white);
+}
+
+.footer p {
+  font-size: 0.95rem;
+  color: #dad9d9;
+}
+
+.footer a {
+  color: var(--white);
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.footer a:hover {
+  color: var(--hover-accent);
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+}
+
+.footer-links li {
+  margin: 0 10px;
+}

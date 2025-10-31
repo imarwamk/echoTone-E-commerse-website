@@ -1,0 +1,45 @@
+:root {
+  --main-bg1: #327c99;
+  --main-bg2: rgba(53, 112, 135, 1);
+  --main-bg3: rgba(53, 70, 74, 1);
+  --main-bg4: rgba(33, 45, 48, 1);
+  --main-bg5: rgba(36, 34, 31, 1);
+
+  --white: #fff;
+  --offwhite: rgba(249, 249, 249, 0.3);
+  --light-gray: #ccc;
+  --gray: rgba(233, 233, 233, 0.886);
+  --dark-gray: rgba(31, 31, 31, 0.385);
+  --border-white: rgba(255, 255, 255, 0.542);
+  --border-light: rgba(255, 255, 255, 0.262);
+
+  --hover-accent: rgb(2, 230, 255);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    0deg,
+    var(--main-bg1) 0%,
+    var(--main-bg2) 26%,
+    var(--main-bg3) 59%,
+    var(--main-bg4) 74%,
+    var(--main-bg5) 100%
+  );
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.swal2-popup,
+.swal2-title,
+.swal2-html-container {
+  color: var(--white) !important;
+  font-family: "Poppins", sans-serif;
+}
